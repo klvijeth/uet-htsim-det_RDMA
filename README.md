@@ -1,6 +1,6 @@
 # uec-transport-simulation-code
 
-This repository is dedicated to the Congestion Management Group
+This repository is dedicated to the Congestion Management Group.
 
 By contributing to this project you agree to the Developer's
 Certificate of Origin 1.1 (at http://developercertificate.org) for the
@@ -18,17 +18,16 @@ The role of htsim in the Ultra Ethernet Consortium (UEC) standards development i
 
 In UEC, htsim:
 
-- provides a platform for continuous implementation and development of UET transport layer.
+- provides a platform for continuous implementation and development of UEC transport layer.
 - is used to simulate and run different topologies and scenarios, helping to identify issues in the current specifications and estimate the throughput and latency for given parameters like topology, flow matrix and congestion configuration.
-- is used to implement and test UET congestion control algorithms with different traffic patterns and scenarios.
-- provides continuous modeling of existing specifications to validate and feed results for future revisions.
-- Provides a reference for users and developers to run simulation with different configurable parameters for various scenarios and algorithms; and use the results to plan and configure network topology in practice.
+- provides a reference for users and developers to run simulations with different configurable parameters for various scenarios and algorithms
 
 
-htsim's role is deliberately focused on congestion control. 
-UEC's htsim is not
+htsim's role is deliberately focused on congestion control.
 
-- a complete implementation of the UEC transport spec. 
+UEC's htsim is not:
+
+- a complete implementation of the UEC transport specification.
 - a standard in any way; specifically, it is not part of the official UEC standards release.
   While we aim to match the spec as closely as possible, there might be discrepancies between the UEC CMS specification and the simulator.
   Only the official CMS specification is significant, the simulator is not.
@@ -36,4 +35,4 @@ UEC's htsim is not
 
 # Getting Started
 
-Check the [README](htsim/README.md) file in the ```htsim/``` folder.
+Check the [README](htsim/README.md) file in the `htsim/` folder.
