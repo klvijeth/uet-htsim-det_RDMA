@@ -42,5 +42,5 @@ Yes ("rebase and merge")/no ("squash and merge"), NA if this PR is informational
 
 # This PR needs approval from at least one person per row (creating the PR counts as approval)
 AMD: @yfle0707, @jgjl
-Broadcom: @mhandley, @craiciu
+Broadcom: @craiciu, @iuliandracea
 Microsoft: @aghalayini, @tommasobo
