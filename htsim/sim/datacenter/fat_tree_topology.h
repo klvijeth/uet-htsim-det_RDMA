@@ -75,12 +75,12 @@ public:
 
     void set_latencies(simtime_picosec src_lp, simtime_picosec lp_up, simtime_picosec up_cs,
                        simtime_picosec lp_switch, simtime_picosec up_switch, simtime_picosec core_switch) {
-        _link_latencies[0] = src_lp;
-        _link_latencies[1] = lp_up;
-        _link_latencies[2] = up_cs;
-        _switch_latencies[0] = lp_switch; // aka tor
-        _switch_latencies[1] = up_switch; // aka tor
-        _switch_latencies[2] = core_switch; // aka tor
+        _link_latencies[TOR_TIER] = src_lp;
+        _link_latencies[AGG_TIER] = lp_up;
+        _link_latencies[CORE_TIER] = up_cs;
+        _switch_latencies[TOR_TIER] = lp_switch;
+        _switch_latencies[AGG_TIER] = up_switch;
+        _switch_latencies[CORE_TIER] = core_switch;
     }
     void set_podsize(int hosts_per_pod) {
         _hosts_per_pod = hosts_per_pod;
