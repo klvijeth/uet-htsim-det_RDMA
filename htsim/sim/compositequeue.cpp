@@ -76,7 +76,7 @@ bool CompositeQueue::decide_ECN() {
     if (_queuesize_low > _ecn_maxthresh) {
         return true;
     } else if (_queuesize_low > _ecn_minthresh) {
-        uint64_t p = (0x7FFFFFFF * (_queuesize_low - _ecn_minthresh))/(_ecn_maxthresh - _ecn_minthresh);
+        uint64_t p = ((uint64_t)0x7FFFFFFF * (uint64_t)(_queuesize_low - _ecn_minthresh))/(uint64_t)(_ecn_maxthresh - _ecn_minthresh);
         if ((uint64_t)random() < p) {
             return true;
         }
