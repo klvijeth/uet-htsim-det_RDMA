@@ -1,0 +1,8 @@
+connection_matrices/one.cm
+!Experiment Single Connection DetRDMA
+!Binary ./htsim_detrdma
+!Param -end 2000
+!Param -cqf_cycle_time 5
+!Param -cqf_cg_bw 100000
+!FCT DetRdma_0_13 190
+!tailFCT 190

@@ -100,6 +100,9 @@ set(SOURCE_FILES
     rng.cpp
     roce.cpp
     rocepacket.cpp
+    detrdma.cpp
+    detrdmapacket.cpp
+    detrdma_controller.cpp
     buffer_reps.cpp
     route.cpp
     routetable.cpp
